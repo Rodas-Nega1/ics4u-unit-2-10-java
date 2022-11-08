@@ -6,7 +6,7 @@
 * @since   2022-11-03
 *
 * This is a Vehicle program
-*/ 
+*/
 
 /**
  * This is the main class.
@@ -49,16 +49,15 @@ final class Main {
     */
     public static void main(final String[] args) {
 
+        // Create Motorcycle
+        // System.out.println("Created Motorcycle.");
+        // final Vehicle motorcycle = new Vehicle(160, "Black");
+        // System.out.println("\nMax Speed: "
+        // + motorcycle.getMaxSpeed() + "\n");
 
-      /** Create Motorcycle
-        * System.out.println("Created Motorcycle.");
-        * final Vehicle motorcycle = new Vehicle(160, "Black");
-        * System.out.println("\nMax Speed: " + motorcycle.getMaxSpeed() + "\n");
-
-        * final Bicycle bmx = new Bicycle("Red", 40);
-        * System.out.println("Created Bmx bike.\nStatus:\n");
-        * bmx.status();
-       */
+        // final Bicycle bmx = new Bicycle("Red", 40);
+        // System.out.println("Created Bmx bike.\nStatus:\n");
+        // bmx.status();
 
         System.out.println("\nSet the cadence to 10");
         bmx.accelerate(TEN);
